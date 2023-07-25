@@ -18,8 +18,6 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
     topics: kafka0,kafka1
-  application:
-    name: config-service
   datasource:
     password: root
     url: jdbc:mysql://localhost:3306/tiqdb
